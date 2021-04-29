@@ -1,0 +1,98 @@
+*{
+ box-sizing:border-box;
+ }
+
+ body{
+   margin: 0px;
+   padding: 0px;
+   font:helvetica;
+  }
+ #start{
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      }
+ nav{
+    display: flex;
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    width: 100%;
+    background-color: white;
+    box-shadow:5px 10px 30px rgba(0,0,0,0.02);
+    z-index: 2;
+    }
+.logo img{
+   height: 50px;
+   
+   } 
+.menu {
+   list-style: none;
+   display: flex;
+
+   }
+.menu li{
+   height: 10px;
+   margin: 2px;
+   padding: 0px 70px;
+   display: flex;
+   font-size: 0.8em;
+   justify-content: space-around;
+   align-items: left;
+   text-transform: uppercase;
+   font-weight: 10px;
+   letter-spacing: 1px;
+   color: black;
+   }      
+.login{
+     color: red;
+     font-weight: 400;
+     font-size: 0.8em;
+     align-item: left;
+     }
+.image{
+     width: 500px;
+     height: 500px;
+     }
+
+.image img{
+      height: 100%;
+      width: 100%;
+     object-fit: contain;
+}
+.content{
+     display: flex;
+     width: 90%;
+     justify-content: space-around;
+     align-items: center;
+     position: absolute;
+     }
+.hello-text{
+    width:600px;
+}    
+.hello-text h1{
+  font-size:4em;
+  color:grey;
+  margin:0px 0px 10x 0px;
+  line-height:70px;
+  }
+.hello-text p{
+  color:brown;
+}
+.app-btn{
+  width:180px;
+  height:40px;
+  display: flex;
+  justify-content:center;
+  align-item: centre;
+  color: white;
+  background-color: green; 
+  border-radius: 25px;
+  box-shadow: 5px 10px 30px rgba(24,138,119,0.3);
+}
+.app-btn:hover {
+  background-color: black;
+  transition: all ease 0.2s;
+}
+.menu li: hover{
+  background-color: green;
